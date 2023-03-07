@@ -1,0 +1,29 @@
+.navbar {
+  background-color: black !important;
+}
+
+.navbar-brand img{
+  height: 50px;
+}
+
+.btn_nav {
+  border: none !important;
+}
+
+.btn_nav span {
+  color: white !important;
+}
+
+.navbar-toggler-icon {
+  background-image: url('../../assets/menu_bars.png') !important;
+}
+
+.nav_itens {
+  align-items: center;
+}
+
+.nav_itens a{
+  color: white;
+  font-family: 'Anton', sans-serif;
+  font-size: 24px;
+}
