@@ -1,0 +1,21 @@
+.container_witgets {
+  background-color: #161616;
+  padding: 2rem;
+  text-align: center;
+}
+
+.bose_container {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.bose_container__img {
+  margin-bottom: 2rem;
+}
+
+.bose_container__img img{
+  width: 380px;
+}
