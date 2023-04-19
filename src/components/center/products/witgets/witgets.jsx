@@ -40,6 +40,7 @@ function Witgets() {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
+    speed: 2000,
     autoplaySpeed: 2000,
     pauseOnHover: true
   };
@@ -51,7 +52,7 @@ function Witgets() {
         <Slider {...settings} ref={sliderRef}>
           {bose_list.map(el => 
             <div 
-              className={selectedCard === movie ? 'selected' : ''}
+              className="bose_container"
               onMouseEnter={() => setSelectedBose(true)}
               onMouseLeave={() => setSelectedBose(false)}
             >
@@ -60,9 +61,11 @@ function Witgets() {
               </div>
               <div className="bose_container__body">
                 <p>{el.title}</p>
-                {selectedBose &&(
-                  <p>€ {el.price}</p>
-                )}
+                <div>
+                  {selectedBose &&(
+                    <p>€ {el.price}</p>
+                  )}
+                </div>
               </div>
             </div>
           )}
