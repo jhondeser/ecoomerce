@@ -1,0 +1,24 @@
+.widget-image-banner__image {
+  height: 70vh;
+  background-image:linear-gradient(to right, rgb(0 0 0 / 0.3), rgb(0 0 0 / 0)), url(../../assets/middleton-global-launch-hero-mobile.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+}
+
+.widget-description {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  width: 80%;
+}
+
+.description__btn button{
+  background: white;
+  border: 1px solid white;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  padding: 5px;
+  width: 200px;
+
+}

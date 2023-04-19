@@ -3,7 +3,11 @@
 }
 
 .navbar-brand img{
-  height: 50px;
+  height: 40px;
+}
+
+.nav_icons a{
+  margin-right: 0.5rem;
 }
 
 .btn_nav {

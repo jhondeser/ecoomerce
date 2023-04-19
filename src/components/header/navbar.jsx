@@ -14,10 +14,10 @@ function NavComponent() {
   return (
     <Navbar collapseOnSelect expand="lg" variant="dark">
       <Container>
-        <Navbar.Brand href="#home" className='mx-2'>
+        <Navbar.Brand href="#home">
           <img src={Logow} alt="" />
         </Navbar.Brand>
-        <Nav className='d-flex flex-row'>
+        <Nav className='d-flex flex-row nav_icons'>
           <Nav.Link href="#features" className='mx-2'>
             <ImSearch size={30} color="white"/>
           </Nav.Link>
