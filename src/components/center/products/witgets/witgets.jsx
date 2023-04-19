@@ -61,11 +61,8 @@ function Witgets() {
               </div>
               <div className="bose_container__body">
                 <p>{el.title}</p>
-                <div>
-                  {selectedBose &&(
-                    <p>€ {el.price}</p>
-                  )}
-                </div>
+                <p style={selectedBose ? {color:'white'} : {color:'#161616'}}>€ {el.price}</p>
+                  
               </div>
             </div>
           )}

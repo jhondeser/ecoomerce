@@ -13,6 +13,10 @@
   width: 80%;
 }
 
+.widget-description a{
+  text-decoration: none;
+}
+
 .description__btn button{
   background: white;
   border: 1px solid white;
